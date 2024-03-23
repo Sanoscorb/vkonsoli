@@ -2,14 +2,11 @@ import enum
 
 
 class Keys(enum.IntEnum):
-    tab = 9
-    enter = 13
-    escape = 27
+    Tab = 9
+    Enter = 13
+    Escape = 27
 
 
-class ExitCode(enum.IntEnum):
-    none = 0
-    endOfLoop = 1
-    exitToSwitch = 2
-    resize = 3
-    error = 4
+class ActionCode(enum.IntEnum):
+    NoAction = 0
+    EndOfLoop = 1
